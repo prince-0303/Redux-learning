@@ -1,11 +1,12 @@
 import React from "react";
-import Counter from "./Redux/Counter";
+import Todo from "./Compnents/TodoApp";
+
 
 function App() {
   return (
     <div>
-      <h2>Redux counter without toolkit</h2>
-      <Counter/>
+      <h2>With toolkit</h2>
+      <Todo/>
     </div>
   )
 }
